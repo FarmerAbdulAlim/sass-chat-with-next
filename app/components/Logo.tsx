@@ -6,7 +6,7 @@ import { AspectRatio } from "@radix-ui/react-aspect-ratio";
 
 export default function Logo() {
   return (
-    <Link href="/" className="overflow-hidden" prefetch={false}>
+    <Link href="/" prefetch={false}>
         <div className="flex items-center w-72 h-14">
             <AspectRatio
                 ratio={16/9}
